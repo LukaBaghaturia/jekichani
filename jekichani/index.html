@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jekichani</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script  src="js/jekichani.js" defer></script>
+</head>
+<body>
+    <div class="score">
+        <img src="images/ROCKPAPERSCISSORS..svg" alt="" class="score__logo">
+        <div class="score__count">
+            <span class="score__count-text">socre</span>
+            <h3 class="score__count-value" id="winCount"></h3>
+        </div>
+    </div>
+    <!-- score -->
+    <div class="choose" id="choose">
+        <div class="circle choose__paper" id="paper"><div class="circle-second"><img src="images/paper.png" alt="" class="image-game"></div></div>
+        <div class="circle choose__scissors" id="scissors"><div class="circle-second"><img src="images/scissors.png" alt="" class="image-game"></div></div>
+        <div class="circle choose__rock" id="rock"><div class="circle-second"><img src="images/rock.png" alt="" class="image-game"></div></div>
+    </div>
+    <!-- choose -->
+     <div class="gameprocess" id="gameprocess">
+        <div class="gameprocess__choice" id="gameprocessMyChoice">
+            
+        </div>
+        <div class="winorloss" id="winOrLoss">
+            <span class="winorloss__text" id="winorlossText">YOU WIN</span>
+            <button class="winorloss__tryagain" id="playAgain">Play Again</button>
+        </div>
+        <div class="gameprocess__choice" id="gameprocessBotChoice">
+            
+        </div>
+     </div>
+    <div class="modal" id="modal">
+        <div class="modal__wrapper">
+            <div class="modal__headline">
+                <h3 class="modal__headline-text">RULES</h3>
+                <button id="modalExit"><img src="images/Combined Shape.svg" alt=""></button>
+            </div>
+            <img src="images/Group 16.png" alt="" class="modal__rule-img">
+        </div>
+    </div>
+    <!-- modas -->
+    <button class="rules" id="rules">RULES</div>
+    <!-- rule -->
+</body>
+</html>
